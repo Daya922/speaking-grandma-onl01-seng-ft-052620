@@ -20,7 +20,7 @@
   elsif phrase="#{phrase}".upcase
     return "no, not since 1938".upcase
   else
-    return "huh? ! speak up, sonny!".upcase
+    puts "huh? ! speak up, sonny!".upcase
   end
 end
 
