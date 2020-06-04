@@ -18,9 +18,9 @@
   if phrase=="i love you grandma!".upcase
     return "i love you too pumpkin!".upcase
   elsif phrase="#{phrase}".upcase
-    puts "no, not since 1938".upcase
+    return "no, not since 1938".upcase
   else
-    puts "huh? ! speak up, sonny!".upcase
+    return "huh? ! speak up, sonny!".upcase
   end
 end
 
